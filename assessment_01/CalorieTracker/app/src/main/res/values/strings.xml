@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calorie Tracker</string>
+    <string name="settings">settings</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="required_calories">Required calories</string>
+    <string name="typical_calories">A typical daily calorie intake is around 2500 for men and 2000 for women.</string>
+    <string name="settings_title">Settings</string>
+    <string name="add_default">ADD 0</string>
+    <string name="no_meals">You haven\'t eaten anything yet today!</string>
+    <string name="history_title">Today\'s meal history:</string>
+    <string name="caloric_requirement_title">Set daily caloric requirement</string>
+    <string name="display_default">0 / 2000</string>
+    <string name="description_default">Hello, time to get some food in you!</string>
+    <string name="description_overflow">You\'ve passed your caloric intake for the day, I think that\'s enough food until tomorrow.</string>
+    <string name="description_progress">You\'re about %d%% of the way through your daily intake budget.</string>
+    <string name="toast_min">Required intake was below the minimum and was raised</string>
+    <string name="toast_max">Required intake was above the maximum and was lowered</string>
+    <string name="clear_history">clear history</string>
+    <string name="clear_title">Clear History</string>
+    <string name="clear_message">Are you sure you want to clear today\'s history? This will also reset today\'s caloric intake.</string>
+    <string name="clear_cancel">Cancel</string>
+    <string name="clear_confirm">Confirm</string>
+    <string name="clear_complete">History cleared!</string>
+</resources>
