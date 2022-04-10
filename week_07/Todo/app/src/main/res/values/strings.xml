@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="new_item_hint">Enter the new item...</string>
+</resources>
