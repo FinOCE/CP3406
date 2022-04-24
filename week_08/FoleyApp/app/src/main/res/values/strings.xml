@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoleyApp</string>
+    <string name="technology">technology</string>
+    <string name="human">human</string>
+    <string name="animal">animal</string>
+    <string name="nature">nature</string>
+    <string name="guide">Click each quadrant of the screen to play a different sound</string>
+    <string name="image">Image</string>
+</resources>
