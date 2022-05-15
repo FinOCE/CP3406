@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:contentDescription="@string/image_of_a_celebrity"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <GridView
+        android:id="@+id/names"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:layout_width="match_parent"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:layout_height="0dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

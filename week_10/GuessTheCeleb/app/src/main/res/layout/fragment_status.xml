@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatusFragment">
+
+    <TextView
+        android:layout_weight="1"
+        android:textAppearance="@style/large"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Time remaining: 0 seconds"
+        android:id="@+id/time_remaining"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:text="Score: 0 / 10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="@style/large"
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
