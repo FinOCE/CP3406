@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Quiz" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryAlt</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryAlt</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- MainActivity -->
+    <style name="mainActionBtn">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textSize">26sp</item>
+        <item name="drawableTint">?attr/colorOnPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="mainActionBtn.Secondary" parent="mainActionBtn">
+        <item name="android:backgroundTint">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="mainActionBtn.Tertiary" parent="mainActionBtn">
+        <item name="android:backgroundTint">?attr/colorSecondary</item>
+        <item name="drawableTint">?attr/colorOnSecondary</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+    <style name="mainActionBtn.Alt" parent="mainActionBtn">
+        <item name="android:backgroundTint">@color/alternate</item>
+    </style>
+    <!-- CreateActivity -->
+    <style name="createQuestionBtn">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="drawableTint">?attr/colorOnPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="createAnswerBtn">
+        <item name="backgroundTint">?attr/colorOnPrimary</item>
+    </style>
+    <style name="createAnswerCorrectBtn">
+        <item name="android:background">@null</item>
+        <item name="android:tint">?attr/colorSecondaryVariant</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="createAnswerRemoveBtn">
+        <item name="android:background">@null</item>
+        <item name="android:tint">@color/black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <!-- SelectActivity -->
+    <style name="editQuizBtn">
+        <item name="android:background">@null</item>
+        <item name="android:tint">?attr/colorPrimary</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>

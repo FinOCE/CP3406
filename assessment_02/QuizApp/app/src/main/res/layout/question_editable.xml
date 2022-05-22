@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="40dp">
+
+    <EditText
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="@string/enter_the_question_here"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textSize="26sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/answersList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginVertical="10dp"
+        android:overScrollMode="never"
+        tools:listitem="@layout/answer_editable" />
+
+    <ImageButton
+        android:id="@+id/addAnswerBtn"
+        style="@style/createAnswerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="0dp"
+        android:src="@drawable/ic_baseline_add_24" />
+
+</LinearLayout>

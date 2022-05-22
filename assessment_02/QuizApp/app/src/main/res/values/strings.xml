@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Fizz</string>
+    <string name="quick_start">Quick Start</string>
+    <string name="quiz_selection">Quiz Selection</string>
+    <string name="create">Create</string>
+    <string name="settings">Settings</string>
+    <string name="add_question">Add question</string>
+    <string name="enter_an_answer_here">Enter an answer here</string>
+    <string name="remove_answer">Remove answer</string>
+    <string name="enter_the_question_here">Enter the question here</string>
+    <string name="add_answer">Add answer</string>
+    <string name="create_title">Create a Quiz</string>
+    <string name="create_description">Start creating your quiz with the \"Add question\" button. Enter in your question and the add some potential answers. You can then save your quiz and try it out or share with friends and class mates!</string>
+    <string name="create_removal_description">You can remove a question by swiping right on it, or remove an answer by pressing the X button next to it.</string>
+    <string name="select_description">Press on a quiz to start it! If you need to edit a quiz, click the settings cog next to it, which will take you to the quiz editing page.</string>
+    <string name="select_title">Start a Quiz</string>
+    <string name="enter_quiz_title_here">Enter quiz title here</string>
+    <string name="publish_and_play">Publish and play</string>
+    <string name="delete">Delete</string>
+    <string name="settings_title">Settings</string>
+    <string name="set_difficulty">Set Difficulty</string>
+    <string name="enable_sounds">Enable sounds</string>
+    <string name="exit">Exit</string>
+    <string name="congratulations">Congratulations on completing the quiz! You got %d out of %d questions correct.</string>
+    <string name="share_subject">Quiz results</string>
+    <string name="share_text">I just got %d our of %d on my quiz I created using %s!</string>
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activity.CreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="@string/create_title"
+            android:textAlignment="center"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/create_description" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/create_removal_description" />
+
+        <EditText
+            android:id="@+id/quizTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@null"
+            android:hint="@string/enter_quiz_title_here"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:textSize="35sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/questionsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            tools:listitem="@layout/question_editable" />
+
+        <Button
+            android:id="@+id/addQuestionBtn"
+            style="@style/createQuestionBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_add_24"
+            android:text="@string/add_question" />
+
+
+        <Button
+            android:id="@+id/publishBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="?attr/colorSecondary"
+            android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
+            android:drawableTint="?attr/colorOnSecondary"
+            android:text="@string/publish_and_play" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/alternate"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:drawableTint="?attr/colorOnSecondary"
+            android:text="@string/delete" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

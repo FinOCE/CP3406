@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="5dp">
+
+    <EditText
+        android:id="@+id/answerText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="@string/enter_an_answer_here"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine" />
+
+    <ImageButton
+        android:id="@+id/answerCorrectBtn"
+        style="@style/createAnswerCorrectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="Mark as correct"
+        android:src="@drawable/ic_baseline_check_24" />
+
+    <ImageButton
+        android:id="@+id/answerRemoveBtn"
+        style="@style/createAnswerRemoveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/remove_answer"
+        android:src="@drawable/ic_baseline_close_24" />
+
+</LinearLayout>
